@@ -1,0 +1,15 @@
+[workspace]
+channels = ["conda-forge", "bioconda"]
+name = "snakemake-gtex"
+platforms = ["linux-64"]
+version = "0.1.0"
+description = "Snakemake Pipeline for TPMs by tissue"
+authors = ["David Zornosa <dzbogota1@gmail.com>"]
+
+[dependencies]
+python = ">=3.10,<3.13"
+snakemake-minimal = ">=9.10.0"
+wget = "*"
+gzip = "*"
+pandas = "*"
+matplotlib = "*"
