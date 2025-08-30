@@ -15,6 +15,6 @@ Steps:
 
 Output:
 
-- results/top10.tsv: Table of the top expressed genes.
+- console: Brief summary of tpm file contents.
 
-- results/top10_hist.png: Histogram plot of the top genes by TPM.
+- results/top_genes.png: Histogram plot of the top 10 genes by TPM.
