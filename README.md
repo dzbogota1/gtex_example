@@ -1,7 +1,7 @@
 GTEx TPM Histogram
 ==================
 
-This project downloads a transcript per million (TPM) file from a public GTEx URL, decompresses it, performs a quick analysis of its contents, and generates a histogram that visualizes the genes with the highest expression levels (top TPM values).
+This project uses a Snakemake workflow that downloads a transcript per million (TPM) file from a public GTEx URL, decompresses it, performs a quick analysis of its contents, and generates a histogram that visualizes the genes with the highest expression levels (top TPM values).
 
 Steps:
 
